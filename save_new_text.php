@@ -170,13 +170,13 @@ $complete_html_content .= '<html>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 </head>
 <body>
-  <div class="page_title">
+  <!--<div class="page_title">
   	<h1>
   	'.$interpret.': '.$song_name.'
       </h1>
-  </div>
-  <div class="intro">
-  	<table>
+  </div>-->
+  <!--<div class="intro">-->
+  	<!--<table>
 			<tr>
 				<td class="left">
 					<div class="title">
@@ -203,8 +203,8 @@ $complete_html_content .= '<html>
 				</td>
 			</tr>
 			</table>
-<hr>
-  </div>
+<hr>-->
+  <!--</div>-->
 	
   <div class="content">';
 
