@@ -22,14 +22,29 @@ $link_to_edit_translation_into_target_lang = "edit_int.php?path_to_int_file=".$p
 //OR this page could be used as an overview-page to this Project instead of just as a redirecting-page, THEN links could be added to the respective files
 
 switch($source_lang){
-	case "es":
-	    $source_language="Spanish";
+    case "de":
+	    $source_language="German";
 	    break;
-	case "en":
+    case "en":
 	    $source_language="English";
 	    break;
-	case "de":
-	    $source_language="German";
+    case "es":
+	    $source_language="Spanish";
+	    break;
+    case "fr":
+	    $source_language="French";
+	    break;
+    case "it":
+	    $source_language="Italian";
+	    break;
+	case "ps":
+	    $source_language="Persian";
+	    break;
+    case "ru":
+	    $source_language="Russian";
+	    break;
+    case "ua":
+	    $source_language="Ukrainian";
 	    break;
 	default:
 	    $source_language = "no source language";
@@ -37,14 +52,29 @@ switch($source_lang){
 	}
 
 switch($target_lang){
+    case "de":
+	    $target_language="German";
+	    break;
+    case "en":
+	    $target_language="English";
+	    break;
 	case "es":
 	    $target_language="Spanish";
 	    break;
-	case "en":
-	    $target_language="English";
+    case "fr":
+	    $target_language="French";
 	    break;
-	case "de":
-	    $target_language="German";
+    case "it":
+	    $target_language="Italian";
+	    break;
+	case "ps":
+	    $target_language="Persian";
+	    break;
+    case "ru":
+	    $target_language="Russian";
+	    break;
+    case "ua":
+	    $target_language="Ukrainian";
 	    break;
 	default:
 	    $target_language = "no target language";
