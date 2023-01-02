@@ -43,6 +43,9 @@ switch($source_lang){
     case "ru":
 	    $source_language="Russian";
 	    break;
+    case "tr":
+        $source_language="Turkish";
+	    break;
     case "ua":
 	    $source_language="Ukrainian";
 	    break;
@@ -72,6 +75,9 @@ switch($target_lang){
 	    break;
     case "ru":
 	    $target_language="Russian";
+	    break;
+    case "tr":
+        $target_language="Turkish";
 	    break;
     case "ua":
 	    $target_language="Ukrainian";
