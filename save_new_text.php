@@ -126,6 +126,10 @@ $intro_text_2_en_ps = "How to use this Interlinear Text to learn Persian";
 $intro_text_1_en_ru = "Music Video of \"".$song_name."\" by ". $interpret;
 $intro_text_2_en_ru = "How to use this Interlinear Text to learn Russian";
 
+//student knows english and wants to learn turkish (target-language = english / source-language = turkish)
+$intro_text_1_en_tr = "Music Video of \"".$song_name."\" by ". $interpret;
+$intro_text_2_en_tr = "How to use this Interlinear Text to learn Turkish";
+
 //student knows english and wants to learn ukrainian (target-language = english / source-language = ukrainian)
 $intro_text_1_en_ua = "Music Video of \"".$song_name."\" by ". $interpret;
 $intro_text_2_en_ua = "How to use this Interlinear Text to learn Ukrainian";
@@ -156,6 +160,10 @@ $intro_text_2_fr_ps = "Comment utiliser ce texte interlinéaire pour apprendre l
 $intro_text_1_fr_ru = "Vidéo de musique de \"".$song_name."\" de ". $interpret;
 $intro_text_2_fr_ru = "Comment utiliser ce texte interlinéaire pour apprendre le russe";
 
+//student knows french and wants to learn turkish (target-language = french / source-language = turkish)
+$intro_text_1_fr_tr = "Vidéo de musique de \"".$song_name."\" de ". $interpret;
+$intro_text_2_fr_tr = "Comment utiliser ce texte interlinéaire pour apprendre le turc";
+
 //student knows french and wants to learn ukrainian (target-language = french / source-language = ukrainian)
 $intro_text_1_fr_ua = "Vidéo de musique de \"".$song_name."\" de ". $interpret;
 $intro_text_2_fr_ua = "Comment utiliser ce texte interlinéaire pour apprendre l'ukrainien";
@@ -185,6 +193,10 @@ $intro_text_2_de_ps = "Wie man diesen Interlinearen Text benutzt um Persisch zu 
 //student knows german and wants to learn russian (target-language = german / source-language = russian)
 $intro_text_1_de_ru = "Musikvideo von \"".$song_name."\" von ". $interpret;
 $intro_text_2_de_ru = "Wie man diesen Interlinearen Text benutzt um Russisch zu lernen";
+
+//student knows german and wants to learn turkish (target-language = german / source-language = turkish)
+$intro_text_1_de_tr = "Musikvideo von \"".$song_name."\" von ". $interpret;
+$intro_text_2_de_tr = "Wie man diesen Interlinearen Text benutzt um Türkisch zu lernen";
     
 //student knows german and wants to learn ukrainian (target-language = german / source-language = ukrainian)
 $intro_text_1_de_ua = "Musikvideo von \"".$song_name."\" von ". $interpret;
@@ -216,10 +228,14 @@ $intro_text_2_it_ps = "Come usare questo testo interlineare per imparare il pers
 $intro_text_1_it_ru = "Video musicale di \"".$song_name."\" da ". $interpret;
 $intro_text_2_it_ru = "Come usare questo testo interlineare per imparare il russo";
 
+//student knows italian and wants to learn turkish (target-language = italian / source-language = turkish)
+$intro_text_1_it_tr = "Video musicale di \"".$song_name."\" da ". $interpret;
+$intro_text_2_it_tr = "Come usare questo testo interlineare per imparare il turco";
+
 //student knows italian and wants to learn ukrainian (target-language = italian / source-language = ukrainian)
 $intro_text_1_it_ua = "Video musicale di \"".$song_name."\" da ". $interpret;
 $intro_text_2_it_ua = "Come usare questo testo interlineare per imparare l'ucraino";
-    
+
     
 //For students who already know Spanish:
 //student knows spanish and wants to learn german (target-language = spanish / source-language = german)    
@@ -245,6 +261,10 @@ $intro_text_2_es_ps = "Cómo usar este texto inter-lineal para aprender persa.";
 //student knows spanish and wants to learn russian (target-language = spanish / source-language = russian)    
 $intro_text_1_es_ru = "Video Musical de \"".$song_name."\" de ". $interpret;
 $intro_text_2_es_ru = "Cómo usar este texto inter-lineal para aprender ruso.";
+
+//student knows spanish and wants to learn turkish (target-language = spanish / source-language = turkish)    
+$intro_text_1_es_tr = "Video Musical de \"".$song_name."\" de ". $interpret;
+$intro_text_2_es_tr = "Cómo usar este texto inter-lineal para aprender turco.";
     
 //student knows spanish and wants to learn ukrainian (target-language = spanish / source-language = ukrainian)
 $intro_text_1_es_ua = "Video Musical de \"".$song_name."\" de ". $interpret;
@@ -275,6 +295,10 @@ $intro_text_2_ps_it = "نحوه استفاده از این متن بین خطی 
 //student knows persian and wants to learn russian (target-language = persian / source-language = russian)
 $intro_text_1_ps_ru = $interpret ." "."توسط"." ". "\"".$song_name."\" موزیک ویدیو از";
 $intro_text_2_ps_ru = "نحوه استفاده از این متن بین خطی برای یادگیری روسی";
+
+//student knows persian and wants to learn turkish (target-language = persian / source-language = turkish)
+$intro_text_1_ps_tr = $interpret ." "."توسط"." ". "\"".$song_name."\" موزیک ویدیو از";
+$intro_text_2_ps_tr = "نحوه استفاده از این متن بین خطی برای یادگیری ترکی";
     
 //student knows persian and wants to learn ukrainian (target-language = persian / source-language = ukrainian)
 $intro_text_1_ps_ua = $interpret ." "."توسط"." ". "\"".$song_name."\" موزیک ویدیو از";
@@ -306,11 +330,49 @@ $intro_text_2_ru_it = "Как использовать этот подстроч
 $intro_text_1_ru_ps = "музыкальное видео \"".$song_name."\" от ". $interpret;
 $intro_text_2_ru_ps = "Как использовать этот подстрочный текст для изучения персидского языка";
 
+//student knows russian and wants to learn turkish (target-language = russian / source-language = turkish)
+$intro_text_1_ru_tr = "музыкальное видео \"".$song_name."\" от ". $interpret;
+$intro_text_2_ru_tr = "Как использовать этот подстрочный текст для изучения турецкого языка";
+
 //student knows russian and wants to learn ukrainian (target-language = russian / source-language = ukrainian)
 $intro_text_1_ru_ua = "музыкальное видео \"".$song_name."\" от ". $interpret;
 $intro_text_2_ru_ua = "Как использовать этот подстрочный текст для изучения украинского языка";
 
     
+//For students who already know Turkish (originally here stood English):
+//student knows turkish and wants to learn english (target-language = turkish / source-language = english)
+$intro_text_1_tr_en = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_en = "İngilizce öğrenmek için bu Satır Arası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn german (target-language = turkish / source-language = german)
+$intro_text_1_tr_de = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_de = "Almanca öğrenmek için bu Satırarası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn spanish (target-language = turkish / source-language = spanish)
+$intro_text_1_tr_es = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_es= "İspanyolca öğrenmek için bu Satır Arası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn french (target-language = turkish / source-language = french)
+$intro_text_1_tr_fr = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_fr = "Fransızca öğrenmek için bu Satırarası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn italian (target-language = turkish / source-language = italian)
+$intro_text_1_tr_it = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_it = "İtalyanca öğrenmek için bu Satırarası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn persian (target-language = turkish / source-language = persian)
+$intro_text_1_tr_ps = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_ps = "Farsça öğrenmek için bu Satırarası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn russian (target-language = turkish / source-language = russian)
+$intro_text_1_tr_ru = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_ru = "Rusça öğrenmek için bu Satırarası Metin nasıl kullanılır?";
+
+//student knows turkish and wants to learn ukrainian (target-language = turkish / source-language = ukrainian)
+$intro_text_1_tr_ua = $song_name ." Müzik Videosu ". $interpret . " tarafından";
+$intro_text_2_tr_ua = "Ukraynaca öğrenmek için bu Satırarası Metin nasıl kullanılır?";
+    
+
 //For students who already know Ukrainian:
 //student knows ukrainian and wants to learn german (target-language = ukrainian / source-language = german)
 $intro_text_1_ua_de = "музичне відео від \"".$song_name."\" від ". $interpret;
@@ -340,6 +402,10 @@ $intro_text_2_ua_ps = "Як використовувати цей міжрядк
 $intro_text_1_ua_ru = "музичне відео від \"".$song_name."\" від ". $interpret;
 $intro_text_2_ua_ru = "Як використовувати цей міжрядковий текст для вивчення російської мови";
 
+//student knows ukrainian and wants to learn turkish (target-language = ukrainian / source-language = turkish)
+$intro_text_1_ua_tr = "музичне відео від \"".$song_name."\" від ". $interpret;
+$intro_text_2_ua_tr = "Як використовувати цей міжрядковий текст для вивчення турецької мови";
+    
     
 switch($target_lang){
     case "de": //German = Target Language (for speakers of German)
@@ -367,6 +433,10 @@ switch($target_lang){
          case "ru":
 	        $intro_text_1 = $intro_text_1_de_ru;
             $intro_text_2 = $intro_text_2_de_ru;
+	     break;
+        case "tr":
+	        $intro_text_1 = $intro_text_1_de_tr;
+            $intro_text_2 = $intro_text_2_de_tr;
 	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_de_ua;
@@ -400,6 +470,10 @@ switch($target_lang){
 	        $intro_text_1 = $intro_text_1_en_ru;
             $intro_text_2 = $intro_text_2_en_ru;
 	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_en_tr;
+            $intro_text_2 = $intro_text_2_en_tr;
+	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_en_ua;
             $intro_text_2 = $intro_text_2_en_ua;
@@ -431,6 +505,10 @@ switch($target_lang){
          case "ru":
 	        $intro_text_1 = $intro_text_1_es_ru;
             $intro_text_2 = $intro_text_2_es_ru;
+	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_es_tr;
+            $intro_text_2 = $intro_text_2_es_tr;
 	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_es_ua;
@@ -464,6 +542,10 @@ switch($target_lang){
 	        $intro_text_1 = $intro_text_1_fr_ru;
             $intro_text_2 = $intro_text_2_fr_ru;
 	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_fr_tr;
+            $intro_text_2 = $intro_text_2_fr_tr;
+	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_fr_ua;
             $intro_text_2 = $intro_text_2_fr_ua;
@@ -495,6 +577,10 @@ switch($target_lang){
          case "ru":
 	        $intro_text_1 = $intro_text_1_it_ru;
             $intro_text_2 = $intro_text_2_it_ru;
+	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_it_tr;
+            $intro_text_2 = $intro_text_2_it_tr;
 	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_it_ua;
@@ -528,6 +614,10 @@ switch($target_lang){
 	        $intro_text_1 = $intro_text_1_ps_ru;
             $intro_text_2 = $intro_text_2_ps_ru;
 	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_ps_tr;
+            $intro_text_2 = $intro_text_2_ps_tr;
+	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_ps_ua;
             $intro_text_2 = $intro_text_2_ps_ua;
@@ -560,12 +650,48 @@ switch($target_lang){
 	        $intro_text_1 = $intro_text_1_ru_ps;
             $intro_text_2 = $intro_text_2_ru_ps;
 	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_ru_tr;
+            $intro_text_2 = $intro_text_2_ru_tr;
+	     break;
          case "ua":
 	        $intro_text_1 = $intro_text_1_ru_ua;
             $intro_text_2 = $intro_text_2_ru_ua;
 	     break;
 		}
 	break;
+    case "tr": //Turkish = Target Language (for speakers of Turkish)
+	switch ($source_lang){
+         case "de":
+	        $intro_text_1 = $intro_text_1_tr_de;
+            $intro_text_2 = $intro_text_2_tr_de;
+	     break; 
+	     case "en":
+	        $intro_text_1 = $intro_text_1_tr_en;
+            $intro_text_2 = $intro_text_2_tr_en;
+	     break;
+         case "es":
+	        $intro_text_1 = $intro_text_1_tr_es;
+            $intro_text_2 = $intro_text_2_tr_es;
+	     break;
+         case "fr":
+	        $intro_text_1 = $intro_text_1_tr_fr;
+            $intro_text_2 = $intro_text_2_tr_fr;
+	     break;
+         case "it":
+	        $intro_text_1 = $intro_text_1_tr_it;
+            $intro_text_2 = $intro_text_2_tr_it;
+	     break;
+         case "ps":
+	        $intro_text_1 = $intro_text_1_tr_ps;
+            $intro_text_2 = $intro_text_2_tr_ps;
+	     break;
+         case "ua":
+	        $intro_text_1 = $intro_text_1_tr_ua;
+            $intro_text_2 = $intro_text_2_tr_ua;
+	     break;
+		}
+	break;    
     case "ua": //Ukrainian = Target Language (for speakers of Ukrainian)
 	switch ($source_lang){
          case "de":
@@ -595,6 +721,10 @@ switch($target_lang){
          case "ru":
 	        $intro_text_1 = $intro_text_1_ua_ru;
             $intro_text_2 = $intro_text_2_ua_ru;
+	     break;
+         case "tr":
+	        $intro_text_1 = $intro_text_1_ua_tr;
+            $intro_text_2 = $intro_text_2_ua_tr;
 	     break;
 		}
 	break;
