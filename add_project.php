@@ -29,6 +29,7 @@ Source-Language (Short-Form):<br/>
                <option value = "ps">Persian</option>
                <option value = "ru">Russian</option>
                <option value = "es">Spanish</option>
+               <option value = "tr">Turkish</option>
                <option value = "ua">Ukrainian</option>
              </select><br>
 Target-Language (Short-Form):<br/>
@@ -40,6 +41,7 @@ Target-Language (Short-Form):<br/>
                <option value = "ps">Persian</option>
                <option value = "ru">Russian</option>
                <option value = "es">Spanish</option>
+               <option value = "tk">Turkish</option>
                <option value = "ua">Ukrainian</option>
              </select><br>
 URL to Music Video:<br/> <input type="text" name="music_video_url"/><br/>
